@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Chord change practice</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <script src="../jquery-3.3.1.min.js"></script>
+  <script src="script.js" charset="utf-8"></script>
+  <body>
+    <div id="chords">A
+    </div>
+    <div id="speed">
+      BPM: <input type="text" id="inpSpeed" value="60" size="3">
+    </div>
+    <div id="period">
+      Period: <input type="text" id="inpPeriod" value="10" size="3">s
+    </div>
+    <div id="divMidTick">
+      Midtick: <input type="checkbox" name="inMidTick" id="inMidTick" value="On">
+    </div>
+    <div id="actual">
+    </div>
+    <div id="next">
+    </div>
+    <div id="control">
+      <button type="button" name="run" id="run" onclick="run()">Run</button>
+      <button type="button" name="stop" id="stop" onclick="stop()">Stop</button>
+    </div>
+  </body>
+</html>
